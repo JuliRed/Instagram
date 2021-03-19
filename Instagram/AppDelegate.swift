@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             Parse.initialize(with: parseConfig)
         // Override point for customization after application launch.
+        
         return true
     }
 
