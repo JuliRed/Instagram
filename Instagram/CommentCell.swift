@@ -2,13 +2,18 @@
 //  CommentCell.swift
 //  Instagram
 //
-//  Created by Juliana Redondo Ferrell on 3/18/21.
+//  Created by Juliana Redondo Ferrell on 3/19/21.
 //
 
 import UIKit
 
 class CommentCell: UITableViewCell {
 
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

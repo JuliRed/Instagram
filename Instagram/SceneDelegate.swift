@@ -31,7 +31,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func login() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-        window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "TabBar")
+        window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "FeedViewController")
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
